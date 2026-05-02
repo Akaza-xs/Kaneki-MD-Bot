@@ -16,11 +16,11 @@ module.exports = {
  // ℹ️ Removed commands like welcome,goodbye etc and other commands and features that cause whatsapp account/group ban thank you!
 //____________________________________________________________________________________________________________________________________________  
   //🤖 BOT CONFIGURATION
-  SESSION_ID: process.env.SESSION_ID || 'Phoenix~CandyFire',
-  STICKER_DATA: process.env.STICKER_DATA || '🎯ᴋᴀɴᴇᴋɪ-ᴜɪ;ᴜɪ ᴋᴀɴᴇᴋɪ🍀',
-  ALIVE_DATA: process.env.ALIVE_DATA || '👋 ʜᴇʏ &sender, ɪ ᴍ *ᴋᴀɴᴇᴋɪ-ᴜɪ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ* ᴀʟɪᴠᴇ ɴᴏᴡ!\n\n📌 ᴛʏᴘᴇ *menu* ᴛᴏ ɢᴇᴛ ᴍʏ ᴄᴏᴍᴍᴀɴᴅ ʟɪꜱᴛ.\n\n*ᴘʟᴀᴛꜰᴏʀᴍ:* &platform\n*ʀᴜɴᴛɪᴍᴇ:* &runtime;https://i.ibb.co/tHWJrz3/IMG-20231128-WA0005.jpg',
-  AUDIO_DATA: process.env.AUDIO_DATA || 'Kaneki-UI;Kaneki ;https://files.catbox.moe/isv3qu.jpg',
-  BOT_INFO: process.env.BOT_INFO || 'ᴋᴀɴᴇᴋɪ-ᴍᴅ;ᴋᴇɴ ᴋᴀɴᴇᴋɪ;917888351066;https://files.catbox.moe/isv3qu.jpg', 
+  SESSION_ID: process.env.SESSION_ID || 'Phoenix~GrimRage',
+  STICKER_DATA: process.env.STICKER_DATA || '🎯𝐊ᴀɴᴇᴋɪ 𝐋x;𝐊ᴀɴᴇᴋɪ 𝐋x🍀',
+  ALIVE_DATA: process.env.ALIVE_DATA || '👋 ʜᴇʏ &sender, ɪ ᴍ *𝐊ᴀɴᴇᴋɪ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ* ᴀʟɪᴠᴇ ɴᴏᴡ!\n\n📌 ᴛʏᴘᴇ *menu* ᴛᴏ ɢᴇᴛ ᴍʏ ᴄᴏᴍᴍᴀɴᴅ ʟɪꜱᴛ.\n\n*ᴘʟᴀᴛꜰᴏʀᴍ:* &platform\n*ʀᴜɴᴛɪᴍᴇ:* &runtime;https://i.ibb.co/tHWJrz3/IMG-20231128-WA0005.jpg',
+  AUDIO_DATA: process.env.AUDIO_DATA || '𝐊ᴀɴᴇᴋɪ 𝐋x;𝗞𝗔𝗡𝗘𝗞𝗜 ;https://files.catbox.moe/isv3qu.jpg',
+  BOT_INFO: process.env.BOT_INFO || '𝐊ᴀɴᴇᴋɪ 𝐋x;𝐊ᴀɴᴇᴋɪ 𝐋x;917888351066;https://files.catbox.moe/isv3qu.jpg', 
   PREFIX: process.env.PREFIX || '.', //Type false to use without prerix
   MODE: process.env.MODE || 'private', //Type public to change bot mode to public
   SUDO: process.env.SUDO || '917888351066, 918556946905',
@@ -41,7 +41,7 @@ module.exports = {
   //AUTOMATION 🎯
   AUTO_ALWAYS_ONLINE: toBool(process.env.AUTO_ALWAYS_ONLINE || 'false'),
   AUTO_CALL_REJECT: toBool(process.env.AUTO_CALL_REJECT || 'false'),
-  AUTO_CALL_REJECT_MSG: process.env.AUTO_CALL_REJECT_MSG || '*ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ᴄᴀʟʟ ʙʟᴏᴄᴋɪɴɢ*\n\nꜱᴏʀʀʏ ᴄᴀʟʟꜱ ᴀʀᴇ ɴᴏᴛ ᴀʟʟᴏᴡᴇᴅ\n\nᴘʟᴇᴀꜱᴇ ꜱᴇɴᴅ ᴀ ᴛᴇxᴛ ᴍᴇꜱꜱᴀɢᴇ/ᴠᴏɪᴄᴇ ᴍᴇꜱꜱᴀɢᴇ\n\n> ᴘʜᴏᴇɴɪx-ᴍᴅ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
+  AUTO_CALL_REJECT_MSG: process.env.AUTO_CALL_REJECT_MSG || '*ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ᴄᴀʟʟ ʙʟᴏᴄᴋɪɴɢ*\n\nꜱᴏʀʀʏ ᴄᴀʟʟꜱ ᴀʀᴇ ɴᴏᴛ ᴀʟʟᴏᴡᴇᴅ\n\nᴘʟᴇᴀꜱᴇ ꜱᴇɴᴅ ᴀ ᴛᴇxᴛ ᴍᴇꜱꜱᴀɢᴇ/ᴠᴏɪᴄᴇ ᴍᴇꜱꜱᴀɢᴇ\n\n> ᴋᴀɴᴇᴋɪ-ʟx ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
   AUTO_MSG_READ: toBool(process.env.AUTO_MSG_READ || 'false'),
   AUTO_MSG_REACT: toBool(process.env.AUTO_MSG_REACT || 'false'),
 
