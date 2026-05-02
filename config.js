@@ -19,11 +19,11 @@ module.exports = {
   SESSION_ID: process.env.SESSION_ID || 'Phoenix~CandyFire',
   STICKER_DATA: process.env.STICKER_DATA || '🎯ᴋᴀɴᴇᴋɪ-ᴜɪ;ᴜɪ ᴋᴀɴᴇᴋɪ🍀',
   ALIVE_DATA: process.env.ALIVE_DATA || '👋 ʜᴇʏ &sender, ɪ ᴍ *ᴋᴀɴᴇᴋɪ-ᴜɪ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ* ᴀʟɪᴠᴇ ɴᴏᴡ!\n\n📌 ᴛʏᴘᴇ *menu* ᴛᴏ ɢᴇᴛ ᴍʏ ᴄᴏᴍᴍᴀɴᴅ ʟɪꜱᴛ.\n\n*ᴘʟᴀᴛꜰᴏʀᴍ:* &platform\n*ʀᴜɴᴛɪᴍᴇ:* &runtime;https://i.ibb.co/tHWJrz3/IMG-20231128-WA0005.jpg',
-  AUDIO_DATA: process.env.AUDIO_DATA || 'Kaneki-UI;Kaneki Suresh;https://i.ibb.co/tHWJrz3/IMG-20231128-WA0005.jpg',
-  BOT_INFO: process.env.BOT_INFO || 'ᴋᴀɴᴇᴋɪ-ᴍᴅ;ᴋᴇɴ ᴋᴀɴᴇᴋɪ;919074692450;https://i.ibb.co/tHWJrz3/IMG-20231128-WA0005.jpg', 
+  AUDIO_DATA: process.env.AUDIO_DATA || 'Kaneki-UI;Kaneki ;https://files.catbox.moe/isv3qu.jpg',
+  BOT_INFO: process.env.BOT_INFO || 'ᴋᴀɴᴇᴋɪ-ᴍᴅ;ᴋᴇɴ ᴋᴀɴᴇᴋɪ;917888351066;https://files.catbox.moe/isv3qu.jpg', 
   PREFIX: process.env.PREFIX || '.', //Type false to use without prerix
   MODE: process.env.MODE || 'private', //Type public to change bot mode to public
-  SUDO: process.env.SUDO || '919074692450, 918157993101',
+  SUDO: process.env.SUDO || '917888351066, 918556946905',
   ELEVENLABS_API_KEY: process.env.ELEVENLABS_API_KEY || '',
   TIMEZONE: process.env.TIMEZONE || "Asia/Kolkata",
   BOT_LANG: process.env.BOT_LANG || 'EN',
